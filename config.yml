@@ -1,0 +1,13 @@
+port: :7002
+readOnly: false
+minimumBlockSize: 1
+preferredBlockSize: 4096
+maximumBlockSize: 0xffffffff
+dir: disks
+instances:
+  - name: image
+    description: For test
+    path: disk/image.img
+  - name: image2
+    description: For test2
+    path: disk/image2.img
